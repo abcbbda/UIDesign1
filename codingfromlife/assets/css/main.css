@@ -1,0 +1,481 @@
+body {
+	background: #cccccc;
+}
+
+#align {
+	display: flex;
+  align-items: center;
+  justify-content: center;	
+  height: 100vh;
+}
+
+#stage {
+	width: 900px;
+	height: 556px;
+	margin: auto;
+	background: palegoldenrod;
+	position: relative;
+}
+
+
+#table1 {
+	width: 299px;
+	height: 68px;
+	transform: skew(65deg);
+	background: rgb(248,248,248);
+	position: absolute;
+	top:377px;
+	left: 308px;
+	z-index:2;
+}
+
+
+#table2 {
+	width: 145px;
+	height: 180px;
+/*	transform: skew(59deg);*/
+	background: rgb(200,200,200);
+	position: absolute;
+	top:377px;
+	left: 235px;
+	z-index:1;
+}
+
+
+#table3 {
+	width: 303px;
+	height: 111px;
+/*	transform: skew(59deg);*/
+	background: white;
+	position: absolute;
+	top:445px;
+	left: 375px;
+	z-index:0;
+
+}
+
+
+
+#book1-1{
+	width:120px;
+	height: 34px;
+	background: #14b714;
+	position: absolute;
+	top: 369px;
+	left: 358px;
+	z-index: 3;
+	transform:skewY(356deg);
+}
+
+
+
+#book1-2{
+	width:78px;
+	height: 35px;
+	background: rgb(228,226,217);
+	position: absolute;
+	top: 365px;
+	left: 280px;
+	z-index: 3;
+	transform:skewY(10deg);
+}
+
+
+#book1-3{
+	width:78px;
+	height: 9px;
+	background: rgb(193,191,181);
+	position: absolute;
+	top: 365px;
+	left: 280px;
+	z-index: 3;
+	transform:skewY(10deg);
+}
+
+
+#book2-1{
+	width:121px;
+	height: 18.5px;
+	background: yellow;
+	position: absolute;
+	top: 351px;
+	left: 349px;
+	z-index: 3;
+	transform:skewY(356deg);
+}
+
+
+#book2-2{
+	width:79px;
+	height: 18.5px;
+	background: rgb(228,226,217);
+	position: absolute;
+	top: 348px;
+	left: 270px;
+	z-index: 3;
+	transform:skewY(10deg);
+}
+
+
+#book2-3{
+	width:168px;
+	height: 14px;
+	background: #ffffdb;
+	position: absolute;
+	top: 337px;
+	left: 286px;
+	z-index: 3;
+	transform:skewX(80deg) rotate(357.2deg);
+}
+
+
+
+
+#book3-1{
+	width:79px;
+	height: 12px;
+	background: rgb(240,210,161);
+	position: absolute;
+	top: 338px;
+	left: 377px;
+	z-index: 3;
+	transform:skewY(356deg);
+}
+
+
+
+#book3-2{
+	width:53px;
+	height: 12px;
+	background: rgb(227,204,167);
+	position: absolute;
+	top: 336px;
+	left: 324px;
+	z-index: 3;
+	transform:skewY(10deg);
+}
+
+
+#book3-3{
+	width:110px;
+	height: 9.5px;
+	background: #fff8e5;
+	position: absolute;
+	top: 329px;
+	left: 335px;
+	z-index: 3;
+	transform:skewX(80deg) rotate(357.2deg);
+}
+
+#banana{
+  width: 67px;
+  height: 20px;
+  border-radius: 25px / 15px;
+  background-color: #fbd607;
+  position: absolute;
+  top: 315px;
+  left: 348px;
+  z-index: 3;
+}
+
+
+#pot{
+  width: 58px;
+  height: 53px;
+  background: #e3e3e3;
+  border-radius: 50%;
+	position: absolute;
+	top: 284px;
+	left: 374px;
+  z-index: 3;
+}
+
+#pot1{
+  width: 50px;
+  height: 53px;
+  background: white;
+  border-radius: 50%;
+	position: absolute;
+	top: 284px;
+	left: 378px;
+  z-index: 3;
+}
+
+#flower1{
+  width: 3px;
+  height: 135px;
+  background: #41880d;
+	position: absolute;
+	top: 220px;
+	left: 401px;
+  z-index: 2;
+}
+
+#flower2{
+  width: 80px;
+  height: 114px;
+  border-radius: 50%;
+  box-shadow: 4px -2px 0 0 #41880d;
+	position: absolute;
+	top: 222px;
+	left: 319px;
+  z-index: 2;
+}
+
+
+#flower3{
+  width: 80px;
+  height: 114px;
+  border-radius: 50%;
+  box-shadow: -3px -3px 0 0 #41880d;
+	position: absolute;
+	top: 213px;
+	left: 403px;
+  z-index: 2;
+}
+
+
+#flower4{
+  width: 80px;
+  height: 196px;
+  border-radius: 50%;
+  box-shadow: 4px 1px 0 0 #41880d;
+	position: absolute;
+	top: 183px;
+	left: 321px;
+  z-index: 2;
+}
+
+#flower5{
+	width: 26px;
+	height: 52px;
+	background: #41880d;
+	border-radius: 50%;
+	position: absolute;
+	top: 176px;
+	left: 398px;
+	z-index: 2;
+	transform: rotate(21deg);
+}
+
+#flower6{
+	width: 45px;
+	height: 41px;
+	background: #ffbe87;
+	border-radius: 50%;
+	position: absolute;
+	top: 187px;
+	left: 369px;
+	z-index: 2;
+	transform: rotate(deg);
+}
+
+#flower7{
+	width: 25px;
+	height: 9px;
+	background: #ffebda;
+	border-radius: 50%;
+	position: absolute;
+	top: 211px;
+	left: 391px;
+	z-index: 2;
+	transform: rotate(336deg);
+}
+
+
+#flower8{
+	width: 23px;
+	height: 9px;
+	background: #ffebda;
+	border-radius: 50%;
+	position: absolute;
+	top: 212px;
+	left: 368px;
+	z-index: 2;
+	transform: rotate(31deg);
+}
+
+#flower9{
+	width: 16px;
+	height: 7px;
+	background: #ffebda;
+	border-radius: 50%;
+	position: absolute;
+	top: 206px;
+	left: 385px;
+	z-index: 2;
+	transform: rotate(357deg);
+}
+
+
+#flower10{
+	width: 18px;
+	height: 7px;
+	background: #ffebda;
+	border-radius: 50%;
+	position: absolute;
+	top: 191px;
+	left: 374px;
+	z-index: 2;
+	transform: rotate(336deg);
+}
+
+
+#teapot{
+  width: 78px;
+  height: 81px;
+  background: #e3e3e3;
+  border-radius: 30%;
+	position: absolute;
+	top: 326px;
+	left: 481px;
+  z-index: 3;
+}
+
+
+#teapot1{
+  width: 63px;
+  height: 81px;
+  background: white;
+  border-radius: 30%;
+	position: absolute;
+	top: 326px;
+	left: 486px;
+  z-index: 3;
+}
+
+
+#teapot2{
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+	position: absolute;
+	top: 318px;
+	left: 512px;
+  z-index: 3;
+}
+
+
+#apple{
+	width: 69px;
+  height: 69px;
+  background: #fb3131;
+  border-radius: 48%;
+	position: absolute;
+	top: 348px;
+	left: 474px;
+  z-index: 3;
+}
+
+#apple1{
+	width: 33px;
+  height: 34px;
+  background: #ffee3e78;
+  border-radius: 48%;
+	position: absolute;
+	top: 357px;
+	left: 504px;
+  z-index: 3;
+}
+
+#apple2{
+	width: 4px;
+  height: 9px;
+  background: white;
+  border-radius: 48%;
+	position: absolute;
+	top: 373px;
+	left: 488px;
+  z-index: 3;
+}
+
+
+
+/*
+#anpanman1 {
+	width:100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+	top:445px;
+	left: 375px;
+	z-index:0;
+}*/
+
+
+/*
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid yellow;
+	position: absolute;
+	top: 203px;
+	left: 60px;
+}
+
+#square {
+	width: 150px;
+	height: 150px;
+	background: red;
+	top: 203px;
+	left: 270px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+/*}
+
+#circle {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	border-radius: 150px;
+	top: 203px;
+	left: 480px;
+	position: absolute;
+}
+
+#clip {
+	width: 150px;
+	height: 150px;
+	background: green;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 690px;
+	position: absolute;
+*/
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+/*}*/
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
