@@ -4,28 +4,14 @@
 	box-sizing: border-box;
 }
 
-/* adjusting fonts */
 
 body {
-	color: blue;
-	Font-family: arial;
+	Font-family: sans-serif;
 }
 
 .cursive {
 	font-family: cursive;
 }
-
-/*body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
-	transition: background 500ms ease;
-}
-
-p, li {
-	font-size:  22px;
-	line-height: 30px;
-}*/
-
-/* adjusting spacing */
 
 #left-column {
 	padding: 20px;
@@ -44,26 +30,32 @@ img {
 	height:  auto;
 }
 
-/* uncomment the code below to set the grid */
 
-/*#grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+
+button{
+	font-size: 1rem;
+	font-weight: bold;
+	border: 2px solid var(--accent-color);
+	background: transparent;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
 }
 
-body {
-	overflow: hidden;
+button:hover{
+	background: rgb(200 200 200);
+	cursor: pointer;
 }
 
-.scroll {
-	padding:  20px;
-	overflow: scroll;
-	height: 100vh;
+
+
+body.darkmode {
+	background: black;
+	color: white;
+
+	--accent-color: rgb(0,255,0);
 }
 
-#left-column {
+body.darkmode button{
+	color: white;
 }
-
-#right-column {
-	background: #333;
-}*/
