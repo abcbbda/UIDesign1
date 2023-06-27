@@ -1,0 +1,61 @@
+* {
+	margin:  7px;
+	padding:  1px;
+	box-sizing: border-box;
+}
+
+/* adjusting fonts */
+
+body {
+	background-color: #dbcba2;
+	color: white;
+	Font-family: arial;
+}
+
+.cursive {
+	font-family: cursive;
+}
+
+
+#left-column {
+	padding: 20px;
+}
+
+h1 {
+	margin-bottom:  100px;
+}
+
+h3 {
+	margin-bottom: 40px;
+}
+
+
+p {
+
+	margin-bottom:  20px;
+}
+
+
+ul, ol {
+	margin-left: 20px;
+} 
+
+img {
+	width: 250px;
+	height:  auto;
+
+}
+
+/*img:hover {
+	opacity: 0.5;
+}*/
+
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+}
+
+.grid-item{
+	padding: 10px;
+}
